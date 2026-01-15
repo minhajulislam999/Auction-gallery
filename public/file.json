@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Vintage Leica M3 Camera",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962eadcdb2",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left"
+  },
+  {
+    "id": 2,
+    "title": "1965 Gibson SG Standard Electric Guitar",
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left"
+  },
+  {
+    "id": 3,
+    "title": "Original Apple Macintosh 128K (1984)",
+    "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left"
+  },
+  {
+    "id": 4,
+    "title": "Rolex Submariner 16610",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left"
+  },
+  {
+    "id": 5,
+    "title": "First Edition The Great Gatsby",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left"
+  },
+  {
+    "id": 6,
+    "title": "Mid-Century Modern Eames Lounge Chair",
+    "image": "https://images.unsplash.com/photo-1505693314127-2f80d0f84d4c",
+    "currentBidPrice": 2850,
+    "timeLeft": "2 Days left"
+  }
+]
