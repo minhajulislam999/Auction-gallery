@@ -7,7 +7,7 @@ function FavoriteItems({ favorites, handleRemoveFavorite }) {
   );
 
   return(
-    <div className="bg-white rounded-xl p-4">
+    <div className="bg-gray-400 rounded-xl p-4">
               <h2 className="text-lg font-semibold mb-4">Favorite Items</h2>
 {favorites.length === 0 ? (
         <p className="text-gray-500">No items added</p>
