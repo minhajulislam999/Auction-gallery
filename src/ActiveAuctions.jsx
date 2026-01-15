@@ -4,7 +4,7 @@ import { FaRegHeart } from "react-icons/fa6";
 
 
 
-function ActiveAuctions() {
+function ActiveAuctions({handleAddFavorite }) {
 
     const [auctions, setAuctions] = useState([]);
 
@@ -55,7 +55,7 @@ function ActiveAuctions() {
                                 {/* Price */}
 
                                 <p className='font-semibold'>
-                                    {item.currentBidPrice}
+                                   ৳  {item.currentBidPrice}
                                 </p>
 
                                 {/* Time */}
@@ -68,7 +68,9 @@ function ActiveAuctions() {
 
                                 <div className='flex justify-end'>
 
-                                    <FaRegHeart className='text-gray-400 hover:text-red-500 cursor-pointer' />
+                                    <FaRegHeart
+                                     onClick={() => handleAddFavorite(item)}
+                                    className='text-gray-400 hover:text-red-500 cursor-pointer' />
                                 </div>
 
 
