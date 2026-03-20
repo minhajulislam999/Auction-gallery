@@ -1,16 +1,59 @@
-# React + Vite
+# 🎯 Auction Gallery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive auction-based web application built using ReactJS, following a Figma design. Users can explore auction items, add them to favorites, and track total bid price dynamically.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+🔗 Live Site: https://willowy-halva-c2252d.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Responsive Navbar, Banner, and Footer based on Figma design
+- Display auction items using JSON data
+- Active Auctions section with 6 items
+- Add to Favorites functionality ❤️
+- Remove from Favorites ❌
+- Real-time total price calculation
+- Table format data display
+- Disabled button after adding to favorites
+- Toast notifications using React-Toastify
 
-## React Compiler
+## 🛠️ Technologies Used
+- ReactJS
+- JavaScript (ES6)
+- CSS
+- JSON
+- React-Toastify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+src/
+├── components/
+├── data/
+├── App.js
+├── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## ⚙️ Installation & Setup
+1. Clone the repository:
+
+git clone https://github.com/minhajulislam999/Auction-gallery.git
+
+2. Navigate to the project folder:
+
+cd auction-gallery
+
+3. Install dependencies:
+
+npm install
+
+4. Run the project:
+
+npm run dev
+
+
+## 📌 Notes
+- Designed based on Figma layout
+- Includes at least 6 auction items in JSON
+- Built for learning and practice purposes
+
+## 🙌 Author
+Minhajul Islam
